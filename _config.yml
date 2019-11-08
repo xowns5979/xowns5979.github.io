@@ -1,5 +1,5 @@
 # Site settings
-title:          예슬아 사랑해
+title:          TAEJUN KIM
 description:    "Minimal Jekyll theme for storytellers"
 url:            "https://chesterhow.github.io"
 
@@ -28,6 +28,8 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   # - jemoji #Uncomment this to allow emoji in your post
+
+  
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
