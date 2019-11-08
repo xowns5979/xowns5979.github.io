@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "About"
+author: 태준
+title: "Baek Yeseul"
 permalink: /about/
 ---
+<img src="/assets/IMG_9513.jpg" width="450px" title="px(픽셀) 크기 설정" alt="RubberDuck">
 
-Hi!
 
-## Hi
-
-* adsds
-* asds
+500일 축하해요
+오래오래 사랑하자!&#128152;
 
