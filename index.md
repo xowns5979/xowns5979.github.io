@@ -22,6 +22,14 @@ Daejeon, Korea
 Research intern, @[CDSN Lab](http://cds.kaist.ac.kr/), KAIST<br>
 Daejeon, Korea
 
+### 2016.06 - 2016.08
+Research intern, Applied Physics Department, Hong Kong Polytechnic University
+Hung Hom, Hong Kong
+
+# Exchange Experience
+### 2016.09 - 2017.01
+Undergraduate exchange student, Tsinghua University
+Bejing, China
 
 # Teaching Experience
 ### Teaching Assistant(TA)
