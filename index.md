@@ -5,6 +5,7 @@ author: 김태준
 
 <img style='border-radius:50%' src="../assets/profile.JPG" width="200" height="200">
 <p style='text-align:center'><font size="+2"> <b>KIM TAEJUN</b></font></p>
+# t1
 
 # Education
 ### 2018.03 - current
