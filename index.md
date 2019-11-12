@@ -17,7 +17,7 @@ B.S. in School of Computing, KAIST<br>
 Daejeon, Korea
 
 
-# Research Experience
+# Research & Work Experience
 ### 2017.03 - 2018.01
 Research intern, @[CDSN Lab](http://cds.kaist.ac.kr/), KAIST<br>
 Daejeon, Korea
@@ -25,6 +25,10 @@ Daejeon, Korea
 ### 2016.06 - 2016.08
 Research intern, Applied Physics Department, Hong Kong Polytechnic University<br>
 Hung Hom, Hong Kong
+
+### 2015.12 - 2016.02
+Frontend coder(intern), @[Bhaptics](https://www.bhaptics.com/)<br>
+Daejeon, Korea
 
 # Exchange Experience
 ### 2016.09 - 2017.01
