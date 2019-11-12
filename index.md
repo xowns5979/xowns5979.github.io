@@ -3,14 +3,19 @@ layout: post
 author: 김태준
 ---
 
-<img style='border-radius:50%' src="../assets/profile.JPG" width="200" height="200">
+<img style='border-radius:50%' src="./assets/profile.JPG" width="200" height="200">
 <p style='text-align:center'><font size="+2"> <b>KIM TAEJUN</b></font></p>
-# t1
+# t2
 
 # Education
 ### 2018.03 - current
 M.S. candidate in School of Computing, KAIST<br>
-Advised by Geehyuk Lee @KAIST HCI Lab
+Advised by Geehyuk Lee @[HCI Lab](https://hcil.kaist.ac.kr/), KAIST
+
+# Links
+{% highlight markdown %}
+Check out tale on [GitHub](https://github.com/chesterhow/tale).
+{% endhighlight %}
 
 ### 2013.03 - 2019.02
 B.S. in School of Computing, KAIST<br>
@@ -18,7 +23,7 @@ Daejeon, Korea
 
 # Research Experience
 ### 2017.02 - 2018.02
-Research intern, CDSN Lab @ KAIST<br>
+Research intern, [CDSN Lab](http://cds.kaist.ac.kr/), KAIST<br>
 Daejeon, Korea
 
 # Teaching Experience
