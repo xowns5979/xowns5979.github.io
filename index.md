@@ -3,7 +3,28 @@ layout: post
 author: 김태준
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.
+<img style='border-radius:50%' src="/assets/profile.JPG" width="200" height="200">
+<p style='text-align:center'><font size="+2"> <b>KIM TAEJUN</b></font></p>
+
+# Education
+### 2018.03 - current
+M.S. candidate in School of Computing, KAIST<br>
+Advised by Geehyuk Lee @KAIST HCI Lab
+
+### 2013.03 - 2019.02
+B.S. in School of Computing, KAIST<br>
+Daejeon, Korea
+
+# Research Experience
+### 2017.02 - 2018.02
+Research intern, CDSN Lab @ KAIST<br>
+Daejeon, Korea
+
+# Teaching Experience
+### Teaching Assistant(TA)
+2019 Spring, CS204 Discrete Mathematics, KAIST<br>
+2018 Spring, CS230 System Programming, KAIST
+
 
 # Headers
 {% highlight markdown %}
