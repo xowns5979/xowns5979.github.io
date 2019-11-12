@@ -2,7 +2,6 @@
 layout: post
 title:  "Introducing Tale"
 author: "Chester"
-permalink: "/postlist/page2/"
 comments: true
 ---
 

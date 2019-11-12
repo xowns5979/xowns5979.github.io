@@ -32,8 +32,10 @@ plugins:
   
 
 # Permalinks
+paginate_path: "/blog/page:num/"
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
