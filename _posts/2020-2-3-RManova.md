@@ -11,3 +11,7 @@ title: "SPSS: Repeated Measure(within-subject) design ANOVA 분석"
 ## 채
 
 ### 우자
+
+<br>
+## 변경 이력
+* 2020년 2월 3일: 글 등록
