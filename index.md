@@ -6,6 +6,16 @@ author: 김태준
 <img style='border-radius:50%' src="/assets/profile.jpg" width="200" height="200">
 <p style='text-align:center'><font size="+2"> <b>KIM TAEJUN</b></font></p>
 
+# Research Interests
+Human perception & Tactile interaction
+Wearable interface
+Enriching input space of touch interaction
+
+# Publication
+**김태준**, 김현주, 이동만
+**스마트 공간에서 컨텍스트들 간의 조합을 통한 공간 속 사람 수 측정 및 보정**
+*한국정보과학회 학술발표논문집, 1807-1809, 2017*
+
 # Education
 ### 2018.03 - Current
 M.S. candidate in School of Computing, KAIST<br>
