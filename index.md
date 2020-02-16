@@ -9,7 +9,7 @@ author: 김태준
 # Research Interests
 * Human perception & Tactile interaction
 * Wearable interface
-* Enriching touch interaction in laptop / wearable interface
+* Enriching touch interaction on laptop / wearable devices
 
 # Education
 ### 2018.03 - Current
