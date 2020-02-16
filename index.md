@@ -7,9 +7,9 @@ author: 김태준
 <p style='text-align:center'><font size="+2"> <b>KIM TAEJUN</b></font></p>
 
 # Research Interests
-### Human perception & Tactile interaction
-### Wearable interface
-### Enriching input space of touch interaction
+* Human perception & Tactile interaction
+* Wearable interface
+* Enriching input space of touch interaction
 
 # Education
 ### 2018.03 - Current
