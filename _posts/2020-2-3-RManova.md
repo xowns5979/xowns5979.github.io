@@ -8,6 +8,9 @@ title: "SPSS: Repeated Measure(within-subject) design ANOVA 분석"
 <img src="/assets/RManova/SPSSoverview.PNG" width="600">
 <p style='text-align:center'>IBM SPSS Statistics 25버전</p>
 
+SPSS로 들어가기 전에 우선 아래 누군가 잘 정리해놓은(Toetskeuzeschema Field) 수형도를 보고 어떤 테스트들을 정리할 지 결정해보자.
+
+
 
 ## 채
 
