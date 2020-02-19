@@ -30,7 +30,7 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
   * 구형성 체크
   * Significant effect (p-value) 체크
   * post-hoc 분석
-* 그래프 (with error bar) 그리기
+* 그래프(+ Error Bar) 그리기
 
 
 ## 채
