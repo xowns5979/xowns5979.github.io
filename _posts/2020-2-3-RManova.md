@@ -11,10 +11,10 @@ Within-Subject 디자인은 비교적 적은 사람 수로 Independent variable�
 ## 어떤 테스트?
 
 SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 가장 최근 내가 분석한 데이터는 
-* outcome variable 개수 = 1개 (Accuracy)
-* outcome variable type = Continuous
-* predictor variable 개수 = 1개(착용한 디바이스 종류)
-* predictor variable type = Categorical
+* Outcome variable 개수 = 1개 (Accuracy)
+* Outcome variable type = Continuous
+* Predictor variable 개수 = 1개(착용한 디바이스 종류)
+* Predictor variable type = Categorical
 * How many categories? = More than two (3개, 디바이스 종류)
 * Same or different entities in each category? = Same 
 (마지막이 조건이 Same이면 within-subject, Different면 between-subject 디자인이다) 
