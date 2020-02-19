@@ -8,7 +8,7 @@ Within-Subject 디자인은 비교적 적은 사람 수로 Independent variable�
 <img src="/assets/RManova/SPSSoverview.PNG" width="600">
 <p style='text-align:center'>IBM SPSS Statistics 25버전</p>
 
-## 어떤 테스트를 해야하지?
+## 어떤 테스트?
 
 SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 가장 최근 내가 분석한 데이터는 
 * outcome variable 개수 = 1개 (Accuracy)
@@ -20,17 +20,16 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 (마지막이 조건이 Same이면 within-subject, Different면 between-subject 디자인이다) 
 마지막으로 정규성 검정을 통과한다면 One-way Repeated measures ANOVA를 하면 되고, 통과하지 못하면 Bootstrapped ANOVA 혹은 Friedman's ANOVA를 하면 된다.
 
-지금부터의 SPSS로 해볼 것은 다음과 같다:
+<img src="/assets/RManova/toetskeuzeschema.PNG" width="900">
+<p style='text-align:center'>Toetskeuzeschema Field</p>
+
+지금부터 SPSS로 해볼 것은 다음과 같다:
 * 데이터의 정규성 검정
 * 각 테스트 (One-way RM ANOVA / Friedman's ANOVA)
   * 구형성 체크
   * Significant effect (p-value) 체크
   * post-hoc 분석
 * 그래프 (with error bar) 그리기
-
-<img src="/assets/RManova/toetskeuzeschema.PNG" width="900">
-<p style='text-align:center'>Toetskeuzeschema Field</p>
-
 
 
 ## 채
