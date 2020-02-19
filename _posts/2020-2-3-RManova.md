@@ -16,8 +16,9 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 * Predictor variable 개수 = 1개(착용한 디바이스 종류)
 * Predictor variable type = Categorical
 * How many categories? = More than two (3개, 디바이스 종류)
-* Same or different entities in each category? = Same 
-(마지막이 조건이 Same이면 within-subject, Different면 between-subject 디자인이다) 
+* Same or different entities in each category? = Same <br>
+(이 조건이 Same이면 within-subject, Different면 between-subject 디자인이다) 
+
 마지막으로 정규성 검정을 통과한다면 One-way Repeated measures ANOVA를 하면 되고, 통과하지 못하면 Bootstrapped ANOVA 혹은 Friedman's ANOVA를 하면 된다.
 
 <img src="/assets/RManova/toetskeuzeschema.PNG" width="900">
