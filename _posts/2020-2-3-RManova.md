@@ -111,11 +111,33 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 <img src="/assets/RManova/rmanova_result_posthoc.PNG" width="400">
 
 
+
 ## Friedman's test
 
-### 프로그램 사용
+Friedman's test의 사후분석은 따로 비모수검정(non-parametric test)의 post-hoc 분석에 쓰이는 Wilcoxon Signed Rank Test를 사용해야 하기 때문에 섹션을 나눈다.
 
-### 결과 분석
+### 프로그램 사용 (1)
+
+1. 분석 - 비모수 검정 - 레거시 대화상자 - K-대응표본 클릭
+<img src="/assets/RManova/friedman_test_step1.PNG" width="400">
+2. 왼쪽의 Column들을 검정 변수로 이동. 아래 Friedman에 체크된 것 확인
+<img src="/assets/RManova/friedman_test_step2.PNG" width="400">
+3. '통계량' 클릭 - '사분위수' 체크 후 '계속' 클릭
+<img src="/assets/RManova/friedman_test_step3.PNG" width="400">
+4. '확인' 클릭
+
+
+### 결과 분석 (1)
+
+* 검정 통계량의 근사 유의확률이 0.05보다 작아 significant effect를 확인할 수 있다.
+<img src="/assets/RManova/friedman_test_significantEffect.PNG" width="400">
+
+### 프로그램 사용 (2)
+
+1. 
+### 결과 분석 (2)
+
+* 
 
 <br>
 ## 변경 이력
