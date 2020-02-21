@@ -55,7 +55,7 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 
 * 정규성 검정 표 확인
   * Shapiro-Wilk Test의 유의확률(p-value)이 0.05보다 크면 정규성 성립
-  * p > 0.05 이므로 분석한 데이터가 normally distributed 되어 있음을 알 수 있음.
+  * VAR 1는 정규성이 성립하지 않고 VAR 2, 3는 성립함을 알 수 있음
 <img src="/assets/RManova/normality_test_result.PNG" width="500">
 <br>
 
