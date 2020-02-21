@@ -71,7 +71,7 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 <img src="/assets/RManova/graph_errorbar_step1.PNG" width="600">
 2. 왼쪽 아래 '막대형 차트' 클릭 - 첫번째 Bar를 위로 드래그
 <img src="/assets/RManova/graph_errorbar_step2.PNG" width="700">
-3. Independent variable을 X축에 드래그하고 dependent variable을 y축에 드래그 & 오른쪽 '오차 막대 표시' 체크
+3. Independent variable을 X축에 드래그하고 dependent variable을 y축에 드래그. 그리고 오른쪽 '오차 막대 표시' 체크
 <img src="/assets/RManova/graph_errorbar_step3.PNG" width="700">
 4. '확인' 클릭 (아래 출력된 바 차트)
 <img src="/assets/RManova/graph_errorbar.PNG" width="400">
@@ -105,7 +105,7 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 <br>
 * 방법 간 차이의 significant effect 체크
   * 구형성 가정이 만족됐기 때문에 가장 위의 유의확률(p-value)를 보면 된다. p < 0.05로 방법 간 차이의 significant effect가 확인됨
-  * "There was a significant effect of type of device on accuracy (F(1,10)=1.422, p=.000)"
+  * "There was a significant effect of type of device on accuracy (F(2,20)=11.639, p=.000)"
 <img src="/assets/RManova/rmanova_result_significantEffect.PNG" width="600">
 <br>
 * 사후 분석(post-hoc analysis w/ Bonferonni Correction)
