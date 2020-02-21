@@ -34,12 +34,12 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
   
 
 
-## 정규성(Normality) 검정
+## 1. 정규성(Normality) 검정
 
 ### 프로그램 사용
 
 1. 분석 - 기술통계량 - 데이터 탐색 클릭
-<img src="/assets/RManova/normality_spss_step1.PNG" width="500">
+<img src="/assets/RManova/normality_spss_step1.PNG" width="600">
 2. 검사하려는 변수를 종속변수에 추가한 후 '통계량' 클릭
 <img src="/assets/RManova/normality_spss_step2.PNG" width="400">
 3. 아래 옵션으로 설정 후 '계속' 클릭
@@ -56,12 +56,12 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 * 정규성 검정 표 확인
   * Shapiro-Wilk Test의 유의확률(p-value)이 0.05보다 크면 정규성 성립
   * p > 0.05 이므로 분석한 데이터가 normally distributed 되어 있음을 알 수 있음.
-<img src="/assets/RManova/normality_test_result.PNG" width="600">
+<img src="/assets/RManova/normality_test_result.PNG" width="500">
 <br>
 
-## 그래프 그리기 (with Error Bar)
+## 2. 그래프 그리기 (with Error Bar)
 
-통계 분석에 들어가기 전에 데이터가 전체적으로 어떻게 생겼는지 Bar Chart를 그려서 확인해보자. 에러바도 있다면 statistical difference를 대충 예상할 수도 있겠다.
+통계 분석에 들어가기 전에 데이터가 전체적으로 어떻게 생겼는지 Bar Chart를 그려서 확인해보자. 에러바도 있다면 statistical difference를 대충 예상해 볼수도 있다.
 
 ### 프로그램 사용
 
@@ -70,22 +70,23 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 1. 데이터를 새로 배열한 후 그래프 - 차트 작성기 클릭
 <img src="/assets/RManova/graph_errorbar_step1.PNG" width="600">
 2. 왼쪽 아래 '막대형 차트' 클릭 - 첫번째 Bar를 위로 드래그
-<img src="/assets/RManova/graph_errorbar_step1.PNG" width="400">
+<img src="/assets/RManova/graph_errorbar_step2.PNG" width="400">
 3. Independent variable을 X축에 드래그하고 dependent variable을 y축에 드래그 & 오른쪽 '오차 막대 표시' 체크
-<img src="/assets/RManova/graph_errorbar_step1.PNG" width="400">
+<img src="/assets/RManova/graph_errorbar_step3.PNG" width="400">
 4. '확인' 클릭
 <img src="/assets/RManova/graph_errorbar.PNG" width="400">
+<p style='text-align:center'>출력된 바 차트(+ 에러 바)</p>
 
-## One-way Repeated Measure ANOVA
+## 3-1. One-way Repeated Measure ANOVA
 
-이 글에서 가장 중요한 부분이고 내가 가장 많이 쓰게될 통계분석이다.
+이 글에서 가장 중요한 부분. 그리고 가장 많이 쓰게될 통계분석이다.
 
 ### 프로그램 사용
 
 1. 분석 - 일반선형모델 - 반복측도 클릭
-<img src="/assets/RManova/rmanova_test_step1.PNG" width="400">
+<img src="/assets/RManova/rmanova_test_step1.PNG" width="600">
 2. 요인 이름, 측도 이름을 임의로 정함. 수준 수에는 조건 개수 입력. 추가한 뒤 '정의' 클릭
-<img src="/assets/RManova/rmanova_test_step2.PNG" width="400">
+<img src="/assets/RManova/rmanova_test_step2.PNG" width="200">
 3. 왼쪽의 Column들을 개체-내 변수로 이동
 <img src="/assets/RManova/rmanova_test_step3.PNG" width="400">
 4. 'EM 평균' 클릭. 독립 변수를 오른쪽으로 옮기고 '주효과 비교' 체크, 아래는 Bonferroni 선택
@@ -101,51 +102,51 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
   * 본 데이터는 구형성이 만족됨
   * 구형성이 만족되지 않으면 significant effect를 볼 때 Greenhouse-Gesser (p < 0.05 && 
   Greenhouse-Geisser Epsilon < 0.75) 혹은 Huynh-Feldt (p < 0.05 && Greenhouse-Geisser Epsilon > 0.75) 에 따른 결과를 사용해야 한다. (바로 아래에 나옴)
-<img src="/assets/RManova/rmanova_result_sphericity.PNG" width="400">
+<img src="/assets/RManova/rmanova_result_sphericity.PNG" width="600">
 * 방법 간 차이의 significant effect 체크
   * 구형성 가정이 만족됐기 때문에 가장 위의 유의확률(p-value)를 보면 된다. p < 0.05로 방법 간 차이의 significant effect가 확인됨
-  * There was a significant effect of type of device on accuracy (F(1,10)=1.422, p=.000) 라고 report하면 된다.
-<img src="/assets/RManova/rmanova_result_significantEffect.PNG" width="400">
-* 사후 분석(post-hoc analysis with Bonferonni Correction)
+  * "There was a significant effect of type of device on accuracy (F(1,10)=1.422, p=.000)"
+<img src="/assets/RManova/rmanova_result_significantEffect.PNG" width="600">
+* 사후 분석(post-hoc analysis w/ Bonferonni Correction)
   * 아래 표를 확인해보면 (device 1 - device2), (device 3 - device 2) 사이에는 유의미한 차이가 있고, (device 1 - device 3) 사이에는 유의미한 차이가 없음을 확인할 수 있다.
-<img src="/assets/RManova/rmanova_result_posthoc.PNG" width="400">
+<img src="/assets/RManova/rmanova_result_posthoc.PNG" width="600">
 
 
 
-## Friedman's test
+## 3-2. Friedman's test
 
 Friedman's test의 사후분석은 따로 비모수검정(non-parametric test)의 post-hoc 분석에 쓰이는 Wilcoxon Signed Rank Test를 사용해야 하기 때문에 섹션을 나눈다.
 
 ### 프로그램 사용 (1)
 
 1. 분석 - 비모수 검정 - 레거시 대화상자 - K-대응표본 클릭
-<img src="/assets/RManova/friedman_test_step1.PNG" width="400">
+<img src="/assets/RManova/friedman_test_step1.PNG" width="600">
 2. 왼쪽의 Column들을 검정 변수로 이동. 아래 Friedman에 체크된 것 확인
 <img src="/assets/RManova/friedman_test_step2.PNG" width="400">
 3. '통계량' 클릭 - '사분위수' 체크 후 '계속' 클릭
-<img src="/assets/RManova/friedman_test_step3.PNG" width="400">
+<img src="/assets/RManova/friedman_test_step3.PNG" width="200">
 4. '확인' 클릭
 
 
 ### 결과 분석 (1)
 
-* 검정 통계량의 근사 유의확률이 0.05보다 작아 significant effect를 확인할 수 있다.
+* 검정 통계량의 근사 유의확률이 0.05보다 작으므로 significant effect가 있다.
 <img src="/assets/RManova/friedman_test_significantEffect.PNG" width="400">
 
 ### 프로그램 사용 (2) - post hoc analysis (Wilcoxon signed-rank test)
 
 1. 분석 - 비모수 검정 - 레거시 대화상자 - 2-대응표본 클릭
-<img src="/assets/RManova/friedman_test_step1.PNG" width="400">
+<img src="/assets/RManova/wilcoxonsignedrank_test_step1.PNG" width="600">
 2. 비교하고 싶은 변수의 pair를 모두 오른쪽으로 옮긴다
-<img src="/assets/RManova/friedman_test_step2.PNG" width="400">
+<img src="/assets/RManova/wilcoxonsignedrank_test_step2.PNG" width="400">
 3. '옵션' 클릭 - '기술통계', '사분위수' 체크 후 '계속' 클릭
-<img src="/assets/RManova/friedman_test_step3.PNG" width="400">
+<img src="/assets/RManova/wilcoxonsignedrank_test_step3.PNG" width="400">
 4. '확인' 클릭
 
 ### 결과 분석 (2)
 
 * 검정 통계량의 유의 확률이 0.05보다 작다면 각 pair 사이에는 유의미한 차이가 있다.
-<img src="/assets/RManova/friedman_test_significantEffect.PNG" width="400">
+<img src="/assets/RManova/wilcoxonsignedrank_test_results.PNG" width="400">
 
 <br>
 ## 변경 이력
