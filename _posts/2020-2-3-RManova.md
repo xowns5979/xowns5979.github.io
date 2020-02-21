@@ -70,9 +70,9 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 1. 데이터를 새로 배열한 후 그래프 - 차트 작성기 클릭
 <img src="/assets/RManova/graph_errorbar_step1.PNG" width="600">
 2. 왼쪽 아래 '막대형 차트' 클릭 - 첫번째 Bar를 위로 드래그
-<img src="/assets/RManova/graph_errorbar_step2.PNG" width="600">
+<img src="/assets/RManova/graph_errorbar_step2.PNG" width="700">
 3. Independent variable을 X축에 드래그하고 dependent variable을 y축에 드래그 & 오른쪽 '오차 막대 표시' 체크
-<img src="/assets/RManova/graph_errorbar_step3.PNG" width="600">
+<img src="/assets/RManova/graph_errorbar_step3.PNG" width="700">
 4. '확인' 클릭 (아래 출력된 바 차트)
 <img src="/assets/RManova/graph_errorbar.PNG" width="400">
 
