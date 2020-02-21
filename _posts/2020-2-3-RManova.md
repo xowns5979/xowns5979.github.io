@@ -100,12 +100,14 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
   * Mauchly's Test에서 유의 확률(p-value)이 0.5보다 크면 구형성 만족
   * 본 데이터는 구형성이 만족됨
   * 구형성이 만족되지 않으면 significant effect를 볼 때 Greenhouse-Gesser (p < 0.05 && 
-  Greenhouse-Geisser Epsilon < 0.75) 혹은 Huynh-Feldt (p < 0.05 && Greenhouse-Geisser Epsilon > 0.75) 에 따른 결과를 사용해야 한다. (바로 아래에 나옴)
+  Greenhouse-Geisser Epsilon < 0.75) 혹은 Huynh-Feldt (p < 0.05 && Greenhouse-Geisser Epsilon > 0.75) 에 따른 결과를 사용해야 한다.
 <img src="/assets/RManova/rmanova_result_sphericity.PNG" width="600">
+<br>
 * 방법 간 차이의 significant effect 체크
   * 구형성 가정이 만족됐기 때문에 가장 위의 유의확률(p-value)를 보면 된다. p < 0.05로 방법 간 차이의 significant effect가 확인됨
   * "There was a significant effect of type of device on accuracy (F(1,10)=1.422, p=.000)"
 <img src="/assets/RManova/rmanova_result_significantEffect.PNG" width="600">
+<br>
 * 사후 분석(post-hoc analysis w/ Bonferonni Correction)
   * 아래 표를 확인해보면 (device 1 - device2), (device 3 - device 2) 사이에는 유의미한 차이가 있고, (device 1 - device 3) 사이에는 유의미한 차이가 없음을 확인할 수 있다.
 <img src="/assets/RManova/rmanova_result_posthoc.PNG" width="600">
@@ -130,7 +132,7 @@ Friedman's test의 사후분석은 따로 비모수검정(non-parametric test)�
 ### 결과 분석 (1)
 
 * 검정 통계량의 근사 유의확률이 0.05보다 작으므로 significant effect가 있다.
-<img src="/assets/RManova/friedman_test_significantEffect.PNG" width="400">
+<img src="/assets/RManova/friedman_test_significantEffect.PNG" width="200">
 
 ### 프로그램 사용 (2) - post hoc analysis (Wilcoxon signed-rank test)
 
@@ -139,7 +141,7 @@ Friedman's test의 사후분석은 따로 비모수검정(non-parametric test)�
 2. 비교하고 싶은 변수의 pair를 모두 오른쪽으로 옮긴다
 <img src="/assets/RManova/wilcoxonsignedrank_test_step2.PNG" width="400">
 3. '옵션' 클릭 - '기술통계', '사분위수' 체크 후 '계속' 클릭
-<img src="/assets/RManova/wilcoxonsignedrank_test_step3.PNG" width="400">
+<img src="/assets/RManova/wilcoxonsignedrank_test_step3.PNG" width="200">
 4. '확인' 클릭
 
 ### 결과 분석 (2)
