@@ -29,7 +29,7 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 * 그래프(+ Error Bar) 그리기
 * 각 테스트 (One-way RM ANOVA / Friedman's ANOVA)
   * 구형성 체크
-  * significant effect (p-value) 체크
+  * 방법 간 차이의 significant effect (p-value) 체크
   * post-hoc 분석
   
 
@@ -82,7 +82,34 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 
 ### 프로그램 사용
 
+1. 분석 - 일반선형모델 - 반복측도 클릭
+<img src="/assets/RManova/rmanova_test_step1.PNG" width="400">
+2. 요인 이름, 측도 이름을 임의로 정함. 수준 수에는 조건 개수 입력. 추가한 뒤 '정의' 클릭
+<img src="/assets/RManova/rmanova_test_step2.PNG" width="400">
+3. 왼쪽의 Column들을 개체-내 변수로 이동
+<img src="/assets/RManova/rmanova_test_step3.PNG" width="400">
+4. 'EM 평균' 클릭. 독립 변수를 오른쪽으로 옮기고 '주효과 비교' 체크, 아래는 Bonferroni 선택
+<img src="/assets/RManova/rmanova_test_step4.PNG" width="400">
+5. '옵션' 클릭. '기술통계량' 체크 
+<img src="/assets/RManova/rmanova_test_step5.PNG" width="400">
+6. '확인' 클릭
+
 ### 결과 분석
+
+* 구형성 확인
+  * Mauchly's Test에서 유의 확률(p-value)이 0.5보다 크면 구형성 만족
+  * 본 데이터는 구형성이 만족됨
+  * 구형성이 만족되지 않으면 significant effect를 볼 때 Greenhouse-Gesser (p < 0.05 && 
+  Greenhouse-Geisser Epsilon < 0.75) 혹은 Huynh-Feldt (p < 0.05 && Greenhouse-Geisser Epsilon > 0.75) 에 따른 결과를 사용해야 한다. (바로 아래에 나옴)
+<img src="/assets/RManova/rmanova_result_sphericity.PNG" width="400">
+* 방법 간 차이의 significant effect 체크
+  * 구형성 가정이 만족됐기 때문에 가장 위의 유의확률(p-value)를 보면 된다. p < 0.05로 방법 간 차이의 significant effect가 확인됨
+  * There was a significant effect of type of device on accuracy (F(1,10)=1.422, p=.000) 라고 report하면 된다.
+<img src="/assets/RManova/rmanova_result_significantEffect.PNG" width="400">
+* 사후 분석(post-hoc analysis with Bonferonni Correction)
+  * 아래 표를 확인해보면 (device 1 - device2), (device 3 - device 2) 사이에는 유의미한 차이가 있고, (device 1 - device 3) 사이에는 유의미한 차이가 없음을 확인할 수 있다.
+<img src="/assets/RManova/rmanova_result_posthoc.PNG" width="400">
+
 
 ## Friedman's test
 
