@@ -108,7 +108,7 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
   * "There was a significant effect of type of device on accuracy (F(2,20)=11.639, p=.000)"
 <img src="/assets/RManova/rmanova_result_significantEffect.PNG" width="600">
 <br>
-* 사후 분석(post-hoc analysis w/ Bonferonni Correction)
+* 사후 분석(post-hoc analysis w/ Bonferroni Correction)
   * 아래 표를 확인해보면 (device 1 - device2), (device 3 - device 2) 사이에는 유의미한 차이가 있고, (device 1 - device 3) 사이에는 유의미한 차이가 없음을 확인할 수 있다.
 <img src="/assets/RManova/rmanova_result_posthoc.PNG" width="600">
 
