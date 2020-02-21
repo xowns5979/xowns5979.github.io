@@ -132,12 +132,20 @@ Friedman's test의 사후분석은 따로 비모수검정(non-parametric test)�
 * 검정 통계량의 근사 유의확률이 0.05보다 작아 significant effect를 확인할 수 있다.
 <img src="/assets/RManova/friedman_test_significantEffect.PNG" width="400">
 
-### 프로그램 사용 (2)
+### 프로그램 사용 (2) - post hoc analysis (Wilcoxon signed-rank test)
 
-1. 
+1. 분석 - 비모수 검정 - 레거시 대화상자 - 2-대응표본 클릭
+<img src="/assets/RManova/friedman_test_step1.PNG" width="400">
+2. 비교하고 싶은 변수의 pair를 모두 오른쪽으로 옮긴다
+<img src="/assets/RManova/friedman_test_step2.PNG" width="400">
+3. '옵션' 클릭 - '기술통계', '사분위수' 체크 후 '계속' 클릭
+<img src="/assets/RManova/friedman_test_step3.PNG" width="400">
+4. '확인' 클릭
+
 ### 결과 분석 (2)
 
-* 
+* 검정 통계량의 유의 확률이 0.05보다 작다면 각 pair 사이에는 유의미한 차이가 있다.
+<img src="/assets/RManova/friedman_test_significantEffect.PNG" width="400">
 
 <br>
 ## 변경 이력
