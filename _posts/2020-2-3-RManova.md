@@ -70,23 +70,22 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 1. 데이터를 새로 배열한 후 그래프 - 차트 작성기 클릭
 <img src="/assets/RManova/graph_errorbar_step1.PNG" width="600">
 2. 왼쪽 아래 '막대형 차트' 클릭 - 첫번째 Bar를 위로 드래그
-<img src="/assets/RManova/graph_errorbar_step2.PNG" width="400">
+<img src="/assets/RManova/graph_errorbar_step2.PNG" width="600">
 3. Independent variable을 X축에 드래그하고 dependent variable을 y축에 드래그 & 오른쪽 '오차 막대 표시' 체크
-<img src="/assets/RManova/graph_errorbar_step3.PNG" width="400">
-4. '확인' 클릭
+<img src="/assets/RManova/graph_errorbar_step3.PNG" width="600">
+4. '확인' 클릭 (아래 출력된 바 차트)
 <img src="/assets/RManova/graph_errorbar.PNG" width="400">
-<p style='text-align:center'>출력된 바 차트(+ 에러 바)</p>
 
 ## 3-1. One-way Repeated Measure ANOVA
 
-이 글에서 가장 중요한 부분. 그리고 가장 많이 쓰게될 통계분석이다.
+이 글에서 가장 중요한 부분이고 앞으로 가장 많이 쓰게될 테스트다.
 
 ### 프로그램 사용
 
 1. 분석 - 일반선형모델 - 반복측도 클릭
 <img src="/assets/RManova/rmanova_test_step1.PNG" width="600">
 2. 요인 이름, 측도 이름을 임의로 정함. 수준 수에는 조건 개수 입력. 추가한 뒤 '정의' 클릭
-<img src="/assets/RManova/rmanova_test_step2.PNG" width="200">
+<img src="/assets/RManova/rmanova_test_step2.PNG" width="300">
 3. 왼쪽의 Column들을 개체-내 변수로 이동
 <img src="/assets/RManova/rmanova_test_step3.PNG" width="400">
 4. 'EM 평균' 클릭. 독립 변수를 오른쪽으로 옮기고 '주효과 비교' 체크, 아래는 Bonferroni 선택
