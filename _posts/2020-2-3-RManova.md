@@ -38,22 +38,22 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 ### 프로그램 다루기
 
 1. 분석 - 기술통계량 - 데이터 탐색 클릭
-<img src="/assets/RManova/normality_spss_step1.PNG" width="900">
+<img src="/assets/RManova/normality_spss_step1.PNG" width="700">
 2. 검사하려는 변수를 종속변수에 추가한 후 '통계량' 클릭
-<img src="/assets/RManova/normality_spss_step2.PNG" width="900">
+<img src="/assets/RManova/normality_spss_step2.PNG" width="500">
 3. 아래 옵션으로 설정 후 '계속' 클릭
-<img src="/assets/RManova/normality_spss_step3.PNG" width="900">
+<img src="/assets/RManova/normality_spss_step3.PNG" width="500">
 4. 도표 클릭
-<img src="/assets/RManova/normality_spss_step4.PNG" width="900">
+<img src="/assets/RManova/normality_spss_step4.PNG" width="500">
 5. 아래 옵션으로 설정 후 '계속' 클릭
-<img src="/assets/RManova/normality_spss_step5.PNG" width="900">
+<img src="/assets/RManova/normality_spss_step5.PNG" width="500">
 6. '확인' 클릭
-<img src="/assets/RManova/normality_spss_step6.PNG" width="900">
+<img src="/assets/RManova/normality_spss_step6.PNG" width="500">
 
 ### 결과 분석
 * 정규성 검정 표 확인
   * Shapiro-Wilk Test의 유의확률(p-value)이 0.05보다 크면 정규성 성립
-<img src="/assets/RManova/normality_test_result.PNG" width="900">
+<img src="/assets/RManova/normality_test_result.PNG" width="700">
 
 <br>
 ## 변경 이력
