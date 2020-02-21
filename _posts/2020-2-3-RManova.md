@@ -24,7 +24,7 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 <img src="/assets/RManova/toetskeuzeschema.PNG" width="900">
 <p style='text-align:center'>Toetskeuzeschema Field</p>
 
-지금부터 SPSS로 해볼 것은 다음과 같다:
+지금부터 SPSS로 할 것은 다음과 같다:
 * 데이터의 정규성 검정
 * 그래프(+ Error Bar) 그리기
 * 각 테스트 (One-way RM ANOVA / Friedman's ANOVA)
@@ -39,11 +39,11 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 ### 프로그램 사용
 
 1. 분석 - 기술통계량 - 데이터 탐색 클릭
-<img src="/assets/RManova/normality_spss_step1.PNG" width="600">
+<img src="/assets/RManova/normality_spss_step1.PNG" width="500">
 2. 검사하려는 변수를 종속변수에 추가한 후 '통계량' 클릭
 <img src="/assets/RManova/normality_spss_step2.PNG" width="400">
 3. 아래 옵션으로 설정 후 '계속' 클릭
-<img src="/assets/RManova/normality_spss_step3.PNG" width="300">
+<img src="/assets/RManova/normality_spss_step3.PNG" width="200">
 4. 도표 클릭
 <img src="/assets/RManova/normality_spss_step4.PNG" width="400">
 5. 아래 옵션으로 설정 후 '계속' 클릭
@@ -52,10 +52,12 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 <img src="/assets/RManova/normality_spss_step6.PNG" width="400">
 
 ### 결과 분석
+
 * 정규성 검정 표 확인
   * Shapiro-Wilk Test의 유의확률(p-value)이 0.05보다 크면 정규성 성립
-<img src="/assets/RManova/normality_test_result.PNG" width="500">
-
+  * p > 0.05 이므로 분석한 데이터가 normally distributed 되어 있음을 알 수 있음.
+<img src="/assets/RManova/normality_test_result.PNG" width="600">
+<br>
 
 ## 그래프 그리기 (with Error Bar)
 
@@ -63,26 +65,30 @@ SPSS로 들어가기 전에, 누군가 잘 정리해놓은 수형도를 보자. 
 
 ### 프로그램 사용
 
-ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리해서 넣어놓으면 안되고, 한 Column에 전부 몰아 넣고 Independent variable의 Column을 하나 따로 만들어줘야 한다. (그냥 그대로 할 수 있는 방법이 있을지도.. )
+ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리해서 넣어놓으면 안되고, 한 Column에 전부 몰아 넣고 Independent variable의 Column을 하나 따로 만들어줘야 한다. 
 
-1. 분석 - 기술통계량 - 데이터 탐색 클릭
-<img src="/assets/RManova/normality_spss_step1.PNG" width="700">
-2. 검사하려는 변수를 종속변수에 추가한 후 '통계량' 클릭
-<img src="/assets/RManova/normality_spss_step2.PNG" width="500">
-3. 아래 옵션으로 설정 후 '계속' 클릭
-<img src="/assets/RManova/normality_spss_step3.PNG" width="500">
-4. 도표 클릭
-<img src="/assets/RManova/normality_spss_step4.PNG" width="500">
-5. 아래 옵션으로 설정 후 '계속' 클릭
-<img src="/assets/RManova/normality_spss_step5.PNG" width="500">
-6. '확인' 클릭
-<img src="/assets/RManova/normality_spss_step6.PNG" width="500">
+1. 데이터를 새로 배열한 후 그래프 - 차트 작성기 클릭
+<img src="/assets/RManova/graph_errorbar_step1.PNG" width="600">
+2. 왼쪽 아래 '막대형 차트' 클릭 - 첫번째 Bar를 위로 드래그
+<img src="/assets/RManova/graph_errorbar_step1.PNG" width="400">
+3. Independent variable을 X축에 드래그하고 dependent variable을 y축에 드래그 & 오른쪽 '오차 막대 표시' 체크
+<img src="/assets/RManova/graph_errorbar_step1.PNG" width="400">
+4. '확인' 클릭
+<img src="/assets/RManova/graph_errorbar.PNG" width="400">
+
+## One-way Repeated Measure ANOVA
+
+이 글에서 가장 중요한 부분이고 내가 가장 많이 쓰게될 통계분석이다.
+
+### 프로그램 사용
 
 ### 결과 분석
-* 정규성 검정 표 확인
-  * Shapiro-Wilk Test의 유의확률(p-value)이 0.05보다 크면 정규성 성립
-<img src="/assets/RManova/normality_test_result.PNG" width="700">
 
+## Friedman's test
+
+### 프로그램 사용
+
+### 결과 분석
 
 <br>
 ## 변경 이력
