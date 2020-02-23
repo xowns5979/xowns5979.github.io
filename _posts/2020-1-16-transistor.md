@@ -28,6 +28,8 @@ P형 반도체, N형 반도체를 붙여놓으면 P형에서 N형으로 전류�
 
 ## 구성했던 TR 회로 정리
 
+<img src="/assets/transistor/circuit_hand.PNG" width="300">
+
 
 ## 채워
 * 기록하자
