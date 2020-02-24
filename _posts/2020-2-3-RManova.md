@@ -97,7 +97,7 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 ### 결과 분석
 
 * 구형성 확인
-  * Mauchly's Test에서 유의 확률(p-value)이 0.5보다 크면 구형성 만족
+  * Mauchly's Test에서 유의 확률(p-value)이 0.05보다 크면 구형성 만족
   * 본 데이터는 구형성이 만족됨
   * 구형성이 만족되지 않으면 significant effect를 볼 때 Greenhouse-Gesser (p < 0.05 && 
   Greenhouse-Geisser Epsilon < 0.75) 혹은 Huynh-Feldt (p < 0.05 && Greenhouse-Geisser Epsilon > 0.75) 에 따른 결과를 사용해야 한다.
