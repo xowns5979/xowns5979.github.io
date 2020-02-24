@@ -116,7 +116,7 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 
 ## 3-2. Friedman's test
 
-Friedman's test의 사후분석은 따로 비모수검정(non-parametric test)의 post-hoc 분석에 쓰이는 Wilcoxon Signed Rank Test를 사용해야 하기 때문에 섹션을 나눈다.
+Friedman's test의 사후분석은 따로 비모수검정(non-parametric test)의 post-hoc 분석에 쓰이는 Wilcoxon Signed-Rank Test를 사용해야 하기 때문에 섹션을 나눈다.
 
 ### 프로그램 사용 (1)
 
