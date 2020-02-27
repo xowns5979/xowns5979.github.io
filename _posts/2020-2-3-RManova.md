@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SPSS: Repeated Measure(within-subject) design ANOVA 분석"
+title: "SPSS 분석 (1) One-way Reapeated Measure ANOVA & Friedman's ANOVA"
 ---
 <br>
 Within-Subject 디자인은 비교적 적은 사람 수로 Independent variable의 significant effect를 효과적으로 확인할 수 있게 해준다. SPSS 프로그램으로 repeated measure (within-subject) ANOVA를 돌려보는 과정을 정리해보자.
@@ -116,7 +116,7 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
 
 ## 3-2. Friedman's test
 
-Friedman's test의 사후분석은 따로 비모수검정(non-parametric test)의 post-hoc 분석에 쓰이는 Wilcoxon Signed-Rank Test를 사용해야 하기 때문에 섹션을 나눈다.
+Friedman's test의 사후분석은 비모수검정(non-parametric test)의 post-hoc 분석에 쓰일 수 있는 Wilcoxon Signed-Rank Test를 따로 사용해야 하기 때문에 섹션을 나눈다.
 
 ### 프로그램 사용 (1)
 
