@@ -101,6 +101,7 @@ ANOVA를 돌릴 때처럼 각 Column에 컨디션에 따른 관측값을 분리�
   * 본 데이터는 구형성이 만족됨
   * 구형성이 만족되지 않으면 significant effect를 볼 때 Greenhouse-Gesser (p < 0.05 && 
   Greenhouse-Geisser Epsilon < 0.75) 혹은 Huynh-Feldt (p < 0.05 && Greenhouse-Geisser Epsilon > 0.75) 에 따른 결과를 사용해야 한다.
+  * **Reapeated Measure의 level이 여기서는 3개지만, 2개라면 자동으로 구형성이 만족되어 체크할 필요가 없다.**
 <img src="/assets/RManova/rmanova_result_sphericity.PNG" width="600">
 <br>
 * 방법 간 차이의 significant effect 체크
