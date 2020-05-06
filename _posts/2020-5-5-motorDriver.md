@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Capacitor의 역할, 종류, 사용법"
+title: "모터 드라이버의 원리, 역할, 종류"
 ---
 <br>
 채우기
