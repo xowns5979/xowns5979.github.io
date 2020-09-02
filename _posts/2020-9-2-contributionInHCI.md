@@ -4,7 +4,7 @@ title: "Seven Research Contributions in HCI by Prof. Wobbrock"
 ---
 <br>
 
-워싱턴 대학 Wobbrock 교수님이 2012년에 작성하신 "Seven Research Contributions in HCI"를 정리해보자. <a href="http://faculty.washington.edu/wobbrock/pubs/Wobbrock-2012.pdf">(원문 링크)</a>
+워싱턴 대학 Wobbrock 교수님이 2012년에 작성하신 "Seven Research Contributions in HCI"를 정리해보자. (<a href="http://faculty.washington.edu/wobbrock/pubs/Wobbrock-2012.pdf">원문 링크</a>)
 
 
 * Empirical contributions
