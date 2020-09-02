@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Seven Research Contributions in HCI by Wobbrock"
+title: "Seven Research Contributions in HCI by Prof. Wobbrock"
 ---
 <br>
 
