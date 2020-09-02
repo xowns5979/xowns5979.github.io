@@ -19,4 +19,4 @@ title: "Seven Research Contributions in HCI by Wobbrock"
 <br>
 
 ## 변경 이력
-* 2020년 5월 6일: 글 등록
+* 2020년 9월 2일: 글 등록
