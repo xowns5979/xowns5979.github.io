@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is interaction effects in factorial design?"
-
+---
 <br>
 
 ANOVA 통계 분석에서 확인할 수 있는 factor간의 인터랙션 효과는 어떻게 해석해야 할까. Main effect와 Interaction effect를 구분하고 각각의 예시를 들어보자.
