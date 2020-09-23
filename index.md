@@ -13,7 +13,11 @@ author: 김태준
 * Enriching touch interaction on laptop / wearable devices
 
 # Education
-### 2018.03 - Current
+### 2020.09 - Current
+Ph.D. student in School of Computing, KAIST<br>
+Advised by Geehyuk Lee, @[HCI Lab](https://hcil.kaist.ac.kr/), KAIST
+
+### 2018.03 - 2020.08
 M.S. candidate in School of Computing, KAIST<br>
 Advised by Geehyuk Lee, @[HCI Lab](https://hcil.kaist.ac.kr/), KAIST
 
