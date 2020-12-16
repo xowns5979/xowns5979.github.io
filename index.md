@@ -12,6 +12,9 @@ author: 김태준
 * Gaze-based interaction
 * Enriching touch interaction on laptop / wearable devices
 
+# Publication
+### Taejun Kim, Youngbo Aram Shim, Geehyuk Lee. Improving Recognition Accuracy of Spatiotemporal Tactile Patterns on Wrist Using Distinctive Vibrotactile Stimuli. CHI 2021
+
 # Education
 ### 2020.09 - Current
 Ph.D. student in School of Computing, KAIST<br>
