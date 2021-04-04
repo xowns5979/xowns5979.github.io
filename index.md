@@ -13,7 +13,7 @@ author: 김태준
 * Enriching touch interaction on laptop / wearable devices
 
 # Publication
-* <b>Taejun Kim</b>, Youngbo Aram Shim, Geehyuk Lee. <b>Improving Recognition Accuracy of Spatiotemporal Tactile Patterns on Wrist Using Distinctive Vibrotactile Stimuli.</b> CHI 2021. [DOI(TBU)] [Video(TBU)]
+* <b>Taejun Kim</b>, Youngbo Aram Shim, Geehyuk Lee. <b>Heterogeneous Stroke: Using Unique Vibration Cues to Improve the Wrist-Worn Spatiotemporal Tactile Display</b> CHI 2021. [DOI(TBU)] [Video(TBU)]
 
 # Education
 ### 2020.09 - Current
