@@ -7,10 +7,9 @@ author: 김태준
 <p style='text-align:center'><font size="+2"> <b>KIM TAEJUN</b></font></p>
 
 # Research Interests
-* Human perception & Tactile interaction
-* Wearable interface
 * Gaze-based interaction
-* Enriching touch interaction on laptop / wearable devices
+* Wearable interface
+* Haptics
 
 # Publication
 * <b>Taejun Kim</b>, Youngbo Aram Shim, Geehyuk Lee. <b>Heterogeneous Stroke: Using Unique Vibration Cues to Improve the Wrist-Worn Spatiotemporal Tactile Display</b> CHI 2021. [[DOI](https://dl.acm.org/doi/10.1145/3411764.3445448)] [[Video](https://youtu.be/Qc-zFCvWwCI)]
