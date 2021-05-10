@@ -13,7 +13,7 @@ author: 김태준
 * Enriching touch interaction on laptop / wearable devices
 
 # Publication
-* <b>Taejun Kim</b>, Youngbo Aram Shim, Geehyuk Lee. <b>Heterogeneous Stroke: Using Unique Vibration Cues to Improve the Wrist-Worn Spatiotemporal Tactile Display</b> CHI 2021. [@[DOI](https://dl.acm.org/doi/10.1145/3411764.3445448)] [@[Video](https://youtu.be/Qc-zFCvWwCI)]
+* <b>Taejun Kim</b>, Youngbo Aram Shim, Geehyuk Lee. <b>Heterogeneous Stroke: Using Unique Vibration Cues to Improve the Wrist-Worn Spatiotemporal Tactile Display</b> CHI 2021. [@[DOI](https://dl.acm.org/doi/10.1145/3411764.3445448)] [@[Video](https://youtu.be/Qc-zFCvWwCI)
 
 
 
